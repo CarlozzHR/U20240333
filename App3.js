@@ -7,4 +7,5 @@ let rl = readline.createInterface({
 rl.question('Ingrese su cadena de texto: ', (cadena)=>{
     const cadenaEnMayusculas = cadena.toUpperCase();
     console.log(cadenaEnMayusculas)
+    rl.close();
 })
